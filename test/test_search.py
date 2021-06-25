@@ -14,7 +14,7 @@ class SearchTest(unittest.TestCase):
         self.driver.maximize_window()
 
     def test_search_flipkart(self):
-        search_term = "Vu tv"
+        search_term = "VU Tv"
 
         self.driver.get("https://www.flipkart.com/")
         try:
